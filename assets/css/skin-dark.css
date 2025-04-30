@@ -1,0 +1,506 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+#dark-mode
+{
+  background: #191E29;
+  color: var(--color-white);
+}
+#dark-mode .skin-dark-txt h2
+{
+  color: #191E29;
+}
+#dark-mode a 
+{
+  color: var(--color-white);
+}
+#dark-mode a:hover 
+{
+  color: var(--primary); 
+}
+#dark-mode i
+{
+  color: var(--color-white);
+}
+
+#dark-mode h1,
+#dark-mode h2,
+#dark-mode h3,
+#dark-mode h4,
+#dark-mode h5,
+#dark-mode h6 {
+  color: var(--color-white);
+}
+#dark-mode label
+{
+  color: var(--color-white);
+}
+
+/* Button */ 
+#dark-mode .btn-black .br-button:before
+{
+  border: 2px solid var(--color-white);
+}
+#dark-mode .br-button-- a:hover
+{
+  color: var(--color-white);
+}
+#dark-mode .br-button-slide.btn-black
+{
+  border: 2px solid var(--color-white);
+}
+
+
+#dark-mode .hamburger-menu .sidenav
+{
+  background-color: rgb(25, 30, 41,0.95);
+}
+#dark-mode .hamburger-menu .sidenav a
+{
+ color:#fff;
+}
+#dark-mode .header2 .hamburger-menu .sidenav .sidenav_right .social-col .social-icon i
+{
+  color:#fff;
+}
+#dark-mode .header2 .hamburger-menu .sidenav-wrap
+{ 
+  color: #fff;
+}
+#dark-mode .header2 .hamburger-menu .sidenav-wrap .border-right
+{
+  border-right: 2px solid #fff;
+}
+#dark-mode .mobile-nav.hamburger-menu .sidenav-wrap-m
+{
+  background-color: #132D46;
+}
+#dark-mode .header2 .desktop-nav .br-main-menu-mobile li.current-menu-item
+{
+  border-left: 3px solid #fff;
+}
+#dark-mode .header2 .hamburger-menu .sidenav .sidenav_right .header-detail h5
+{
+  color: #fff;
+}
+#dark-mode .br-header-container .br-cart .mini-cart label
+{
+color: #191E29;
+}
+#dark-mode .br-account .br-account-sub ul li a
+{
+  color: #191E29;
+}
+#dark-mode .br-account .br-account-sub ul li a:hover 
+{
+  color:#e09145;
+}
+
+#dark-mode .search-form button i
+{
+  color: var(--primary);
+}
+#dark-mode .search-form button i:hover 
+{
+  color: var(--text-color);
+}
+
+
+
+#dark-mode .btn-v2  a.elementor-button
+{
+  border: 2px solid #fff;
+  color: #fff;
+ }
+
+/* Table ka border style */
+#dark-mode .woocommerce-Tabs-panel table {
+  border-collapse: collapse; 
+  border: 1px solid var(--color-white); 
+}
+
+/* Table ke th (header cells) ka border style */
+#dark-mode .woocommerce-Tabs-panel table th {
+  border: 1px solid var(--color-white); 
+  color: var(--color-white);
+}
+
+#dark-mode .woocommerce-Tabs-panel table td {
+  border: 1px solid var(--color-white); 
+  color: var(--color-white);
+}
+
+
+#dark-mode .bg-dark 
+{
+  background-color: #132D46;
+}
+#dark-mode .skin-heading h2
+{
+  color: var(--color-white);
+}
+#dark-mode .skin-heading h3
+{
+  color: var(--color-white);
+}
+#dark-mode .skin-heading h4
+{
+  color: var(--color-white);
+}
+#dark-mode .skin-content
+{
+  color: var(--color-white);
+}
+#dark-mode .bg-dark .icon-img
+{
+  -webkit-filter: none;
+          filter: none;
+}
+#dark-mode .icon-img
+{
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+
+/* Navigation */
+#dark-mode .br-header-wrapper .br-navigation-wrapper .br-navigation ul.br-main-menu li ul.sub-menu li a
+{
+  color: var(--text-color);
+}
+#dark-mode .br-header-wrapper .br-navigation-wrapper .br-navigation ul.br-main-menu li ul.sub-menu li a:hover 
+{
+  color: var(--primary);
+}
+#dark-mode .br-header-overlap .br-navigation-wrapper .br-navigation ul.br-main-menu li .sub-menu li a
+{
+  color: var(--text-color);
+}
+#dark-mode .mini-cart .dropdown-footer .button
+{
+  color: var(--color-white);
+}
+
+/* breadcrumb */
+#dark-mode .br-breadcrumb-default .woocommerce-breadcrumb
+{
+  color: var(--color-white);
+}
+
+
+
+/* login */
+
+#dark-mode .v2_btn_slide i 
+{
+  color: var(--text-color);
+}
+
+/* search */
+#dark-mode .yacht-search-form .btn-v2 button[type="submit"] i 
+{
+  color: var(--text-color);
+  font-weight: 100;
+}
+
+#dark-mode .v2_btn button.dark
+{
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+}
+#dark-mode .v2_btn button.dark:hover
+{
+  border: 2px solid var(--primary);
+}
+
+/* Footer */
+#dark-mode  .br-footer-wrapper
+{
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+#dark-mode .br-footer-wrapper :where(a,i) 
+{
+  color: #8c8c8c;
+}
+#dark-mode .br-footer-wrapper .newsletter-form i 
+{
+  color:var(--color-white);
+}
+#dark-mode .br-footer-wrapper .newsletter-form i :hover 
+{
+  color:var(--text-color);
+}
+ 
+
+
+/* Product Tabs */
+#dark-mode .br-product-detail label
+{
+  color: var(--text-color);
+}
+#dark-mode .yacht-tabs .br-product-list .br-foot-product .br-product-detail .br-product-price
+{
+  color: var(--color-white);
+}
+#dark-mode .br-product-detail .add-to-fav .fav-btn .yith-wcwl-add-to-wishlist a
+{
+  color: var(--text-color);
+}
+#dark-mode .br-product-detail .add-to-fav .fav-btn .yith-wcwl-add-to-wishlist a i
+{
+  color: var(--text-color);
+}
+#dark-mode .br_v3_wrap .br_v3_left .br_pr_v2_short_desr
+{
+  color: var(--color-white);
+}
+#dark-mode .yacht-tabs .br-product-list:hover
+{
+  background: transparent;
+  border:1px solid #fff;
+}
+#dark-mode .yacht-tabs .br-product-list .br-foot-product .br-product-detail .br-product-price .woocommerce-Price-amount
+{
+  color: #fff;
+}
+#dark-mode .btn-v2-- a.elementor-button
+{
+  border: 2px solid #ffffff;
+}
+#dark-mode .btn-v2-- a.elementor-button:hover 
+{
+  border: 2px solid var(--primary);
+  color:#ffffff;
+}
+
+/* Tour css */
+
+#dark-mode .tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-description
+{
+    color: var(--color-white);
+}
+
+
+
+/* Testimonial css start*/
+
+#dark-mode .yacht-testimonial .slide
+{
+color: #191E29;
+}
+
+/* Testimonial css end*/
+
+
+
+/* Blog Element start */
+
+#dark-mode .yacht-blog .br-blogs-wrapper .br-blog-list:hover
+{
+  background: transparent;
+  border: 1px solid #fff;
+}
+#dark-mode .br-inside-content .sidebar .widget ul span
+{
+  color: var(--color-white);
+}
+
+/* Blog Element end */
+
+
+
+/* Category */
+#dark-mode .br-product-cat .br-subcat-wrap
+{
+  background: none;
+}
+#dark-mode .br-product-cat .br-subcat-wrap .br-subcat-inner .br-subcat-list .subcat-title
+{
+  color: var(--color-white);
+}
+#dark-mode .cat-main-wrapper .cat-left .dropdown-check .dropdown label
+{
+  /* color: var(--color-white); */
+}
+#dark-mode .cat-main-wrapper .cat-left .br-yacht-available .yacht-form-sidebar .form-group input
+{
+  border: 1px solid rgba(255, 255, 255, 0.90);
+}
+#dark-mode .cat-main-wrapper .cat-left .br-yacht-available .yacht-form-sidebar .form-group input[type="date"]::-webkit-calendar-picker-indicator 
+{
+  -webkit-filter: invert(1);
+          filter: invert(1); 
+}
+#dark-mode .select2-dropdown
+{
+  color: var(--text-color);
+}
+#dark-mode .cat-main-wrapper .br-product-ordering select
+{
+  color: #8c8c8c;
+}
+#dark-mode .cat-main-wrapper .cat-prod-inner .br-product-list .br-foot-product .br-product-detail .br-product-price
+{
+  color: var(--color-white); 
+}
+#dark-mode .cat-main-wrapper .cat-left .br-yacht-available .yacht-form-sidebar .submit-btn button[type="submit"] i
+{
+    color: var(--text-color);
+}
+#dark-mode .cat-main-wrapper .br-product-wrapper .br-product-list:hover
+{
+  background: transparent;
+  border:1px solid #fff;
+}
+#dark-mode .cat-main-wrapper .cat-prod-inner .br-product-list .br-foot-product .br-product-detail .br-product-price .woocommerce-Price-amount
+{
+  color: #fff;
+}
+
+
+/* Tour Desitation start */
+
+#dark-mode .tour-destination-wrapper .br-content .br-ul .br-tour-list:hover
+{
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* Tour Destination end */
+
+
+/* Blog css start*/
+
+#dark-mode .blog-wrapper .br-content .br-ul .custom-post:hover
+{
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* Blog css end */
+
+
+#dark-mode .br-inside-content .main-content .post-content
+{
+  color: var(--color-white); 
+}
+
+
+#dark-mode .br-inside-content .sidebar h4
+{
+  color: var(--color-white);
+}
+#dark-mode .br-inside-content .sidebar .subcribe-form
+{
+  color: var(--color-white);
+}
+#dark-mode .br-product-detail .add-to-fav .fav-btn .yith-wcwl-add-to-wishlist .feedback i 
+{
+  color: var(--text-color);
+}
+#dark-mode .yacht-tabs .br-product-list .br-head-product .br-product-review i
+{
+  color: #FFBA35;
+}
+#dark-mode .yacht-tabs .br-product-list .br-head-product .br-product-wishlist .yith-wcwl-add-button a i
+{
+  color: var(--primary);
+}
+
+
+
+
+/* Singal blog */
+#dark-mode #review_form label
+{
+  color: var(--color-white);
+}
+#dark-mode #review_form textarea
+{
+  background: transparent;
+}
+#dark-mode #review_form .form-submit .submit
+{
+  background: #ffffff;
+  color: var(--text-color);
+}
+#dark-mode #blog_layout_2
+{
+  background: transparent;
+}
+
+
+#dark-mode .br-product-detail .br-prod-info .info-box i
+{
+  color: var(--primary);
+}
+#dark-mode .br_v2_wrap .br_pro_v2_right .price
+{
+  color: var(--color-white);
+}
+#dark-mode .br_v2_wrap .br_v2_right .br_pr_v2_short_desr
+{
+  color: var(--color-white);
+}
+
+#dark-mode .br-product-default .br-prod-detail table.variations td.value select
+{
+  color: var(--color-white);
+}
+#dark-mode .br-product-default .br-prod-detail table.variations td.value select option 
+{
+  color: var(--text-color);
+}
+#dark-mode .br-product-default .br-prod-detail .quantity input
+{
+  color: var(--color-white);
+}
+
+/*cart */
+
+/* Table ka border style */
+#dark-mode .cart-wrap table {
+  border-collapse: collapse; 
+  border: 1px solid var(--color-white); 
+}
+
+/* Table ke th (header cells) ka border style */
+#dark-mode .cart-wrap table th {
+  border: 1px solid var(--color-white); 
+  color: var(--color-white);
+}
+
+#dark-mode .cart-wrap table td {
+  border: 1px solid var(--color-white); 
+  color: var(--color-white);
+}
+
+
+/* Checkout */
+
+#dark-mode .checkout-wrap .checkout label
+{
+  color: var(--color-white);
+}
+#dark-mode .checkout-wrap .woocommerce-checkout-payment label
+{
+  color: var(--text-color);
+}
+#dark-mode .checkout-wrap .woocommerce-checkout-payment .woocommerce-privacy-policy-text
+{
+  color: var(--text-color);
+}
+#dark-mode .checkout-wrap .woocommerce-checkout-payment .woocommerce-privacy-policy-text a
+{
+  color: var(--primary);
+}
+
+
+/* 404 page */
+#dark-mode .br-404-page .br-go-home a:hover
+{
+  color: var(--text-color);
+}

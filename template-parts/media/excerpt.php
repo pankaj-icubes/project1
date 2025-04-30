@@ -1,0 +1,1 @@
+<?php echo custom_excerpt(get_post_field('post_excerpt', get_the_ID()), 16); ?>

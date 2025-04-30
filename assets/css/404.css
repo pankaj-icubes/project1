@@ -1,0 +1,77 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.br-404-page {
+    text-align: center;
+}
+
+.br-404-page .title-404 {
+    margin: 0;
+    font-size: 350px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--primary);
+}
+
+.br-404-page .title {
+    margin-bottom: 29px;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.br-404-page form {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.br-404-page form input[type=search] {
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--text-color);
+    padding-left: 50px;
+    border: 1px solid #CFCACA;
+    height: 55px;
+    width: 75%;
+    cursor: pointer;
+    border-radius: 100px;
+    background: transparent;
+}
+
+.br-404-page form input[type=submit] {
+    height: 55px;
+    border-radius: 50px;
+}
+
+.br-404-page .br-go-home {
+    margin-top:25px;
+    margin-bottom: 15px;
+}
+
+.br-404-page .br-go-home a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.333;
+    color: #FFFFFF;
+    padding: 15px 60px;
+    background-color: var(--primary);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+
+
+/* For screens with a maximum width of 767px (typical for tablets and mobiles) */
+@media (max-width: 767px) {
+    .br-404-page .title-404 {
+        font-size: 180px;
+    }
+}

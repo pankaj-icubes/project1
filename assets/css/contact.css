@@ -1,0 +1,49 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.form-wrap .form-row {
+	display: -ms-grid;
+	display: grid;
+    -ms-grid-columns: 1fr 30px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .form-wrap .form-field 
+  {
+	display: -ms-grid;
+	display: grid;
+  }
+  
+.form-wrap .form-field input[type="text"],
+.form-wrap .form-field input[type="email"],
+.form-wrap .form-field input[type="tel"],
+.form-wrap .form-field textarea {
+  border: none;
+  border-bottom: 1px solid #fff; /* You can adjust the color as needed */
+  padding-left: 0px; /* Adjust padding as needed */
+  width: 100%; /* Adjust width as needed */
+  border-radius: 0px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.form-wrap .form-field input[type="tel"] {
+	background-color: transparent; /* Set background color to transparent */
+	height: 42px;
+	color:#8c8c8c;
+  }
+.form-wrap .form-field textarea {
+	height: 150px; /* Set height to 200 pixels */
+  }
+.form-wrap input[type=submit]
+  {
+	padding: 8px 30px;
+    font-size: 16px;
+  }
+  .contact-form .wpcf7 form.invalid .wpcf7-response-output,
+  .contact-form .wpcf7 form.sent .wpcf7-response-output
+  {
+    color: var(--color-white);
+  }

@@ -1,0 +1,155 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+html {
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+/* Set the base font size and family */
+
+body {
+  font-family: var(--text);
+  font-size: var(--text-font-size);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* Set font-awesome */
+
+body .fa {
+  font-family: 'FontAwesome';
+}
+
+/* Set list styles */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+ol {
+  margin-left: 2rem;
+}
+
+
+/* Set headings styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+  font-family: var(--heading);
+  font-weight: var(--heading-font-weight);
+  clear: both;
+}
+
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+
+/* Set paragraph styles */
+p {
+  font-size: var(--text-font-size);
+  line-height: var(--line-height);
+}
+
+/* Set link styles */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Set other text styles */
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Set blockquote styles */
+blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  border-left: 4px solid var(--primary);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+/* Set code styles */
+code {
+  font-family: "Courier New", monospace;
+  background-color: #f2f2f2;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+pre {
+  font-family: "Courier New", monospace;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 4px;
+  white-space: pre-wrap;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+/* Table ka border style */
+table {
+  padding: 10px;
+}
+
+/* Table ke th (header cells) ka border style */
+table th {
+  padding: 10px;
+}
+
+table td {
+  padding: 10px;
+}

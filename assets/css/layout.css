@@ -1,0 +1,15 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.container {
+  max-width: var(--container-width);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.elementor-default .elementor-section.elementor-section-boxed>.elementor-container {
+  max-width: 1170px;
+}

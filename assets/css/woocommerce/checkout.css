@@ -1,0 +1,75 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.checkout-wrap .woocommerce {
+    font-family: var(--text);
+}
+
+.checkout-wrap .woocommerce .woocommerce-info {
+    border-top-color: var(--primary);
+}
+
+.checkout-wrap .woocommerce .woocommerce-info::before {
+    color: var(--primary);
+}
+
+.checkout-wrap .checkout h3 {
+    font-family: var(--heading);
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.checkout-wrap .checkout label {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.checkout-wrap .checkout input[type="tel"] {
+    border: 1px solid #CFCACA;
+    height: 42px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.checkout-wrap .select2-container--default .select2-selection--single {
+    border: 1px solid #CFCACA;
+    height: 42px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.checkout-wrap .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 22px;
+}
+
+.checkout-wrap .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 42px;
+    right: 10px;
+}
+
+.checkout-wrap .woocommerce-checkout-review-order table th {
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+}
+
+.checkout-wrap .woocommerce #payment #place_order {
+    background: var(--primary);
+}
+.checkout-wrap .woocommerce td.product-name dl.variation p
+{
+    margin-bottom: revert;
+}
+.checkout-wrap .woocommerce td.product-name dl.variation dt
+{
+  font-weight: 600;
+}

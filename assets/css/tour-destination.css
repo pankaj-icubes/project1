@@ -1,0 +1,96 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.tour-destination-wrapper .br-ul {
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 30px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.tour-destination-wrapper .br-ul .br-tour-list .br-head img {
+    width: 100%;
+    height: 240px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-title {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-title a {
+    font-size: 24px;
+    font-family: var(--heading);
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+.tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-title a:hover 
+{
+    color: var(--primary);
+}
+
+.tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-description {
+    margin-bottom: 18px;
+    font-size: var(--text-font-size);
+    font-family: var(--text);
+}
+
+
+.tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-btn {
+    font-size: var(--text-font-size);
+    font-family: var(--text);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--text-color);
+}
+.tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-btn:hover 
+{
+    color: var(--primary);
+}
+.tour-destination-wrapper .br-content .br-ul .br-tour-list 
+{
+    padding:8px;
+}
+.tour-destination-wrapper .br-content .br-ul .br-tour-list:hover 
+{
+    border-radius: 30px;
+    background: #FFF;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.10);
+            box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+
+/* For screens with a maximum width of 768px (typical for tablets and mobiles) */
+@media (max-width: 767px) {
+    .tour-destination-wrapper .br-ul {
+        -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    }
+}
+
+/* iPad screens */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .tour-destination-wrapper {
+        padding: 0px 15px;
+    }
+
+    .tour-destination-wrapper .br-ul {
+        -ms-grid-columns: 1fr 30px 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}

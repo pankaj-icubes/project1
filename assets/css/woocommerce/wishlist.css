@@ -1,0 +1,27 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.woocommerce-wishlist .wishlist-title h2 {
+    margin-top: 0px;
+    font-size: 36px;
+}
+
+.woocommerce-wishlist table.wishlist_table {
+    font-size: 100%;
+}
+
+.woocommerce-wishlist table.wishlist_table th {
+    border-top: none;
+    text-align: center;
+}
+
+.woocommerce-wishlist table.wishlist_table td {
+    text-align: center;
+}
+
+.woocommerce-wishlist .yith_wcwl_wishlist_footer {
+    display: none;
+}

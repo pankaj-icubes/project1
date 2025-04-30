@@ -1,0 +1,61 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+label {
+  color: var(--text-color);
+}
+
+.button,
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  border: none;
+  background: var(--primary);
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 50px;
+  letter-spacing: 0.4px;
+  font-family: var(--text);
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=date],
+input[type=search] {
+  border: 1px solid #CFCACA;
+  height: 42px;
+  color: #8c8c8c;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  background: transparent;
+  font-family: var(--text);
+}
+
+textarea {
+  border: 1px solid #CFCACA;
+  border-radius: 30px;
+  background: transparent;
+  color: #8c8c8c;
+  padding: 10px;
+  font-family: var(--text);
+}
+
+.woocommerce button.button,
+.woocommerce a.button {
+  border: none;
+  background: var(--primary);
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 50px;
+  letter-spacing: 0.4px;
+  font-family: var(--text);
+}

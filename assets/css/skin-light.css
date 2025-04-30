@@ -1,0 +1,320 @@
+#light-mode .skin-heading h2,
+#light-mode .skin-content,
+#light-mode .skin-btn a
+{
+  /* color: var(--text-color); */
+}
+
+#light-mode .lay_v2 .skin-heading h2,
+#light-mode .lay_v2 .skin-content
+{
+  color: #fff;
+}
+
+#light-mode .bg-gray {
+  background-color: #FAFAFA;
+}
+
+#light-mode .header2 .hamburger-menu .sidenav-wrap {
+  color: #191E29;
+}
+
+#light-mode .header2 .hamburger-menu .sidenav-wrap .border-right {
+  border-right: 2px solid #191E29;
+}
+
+#light-mode .header2 .hamburger-menu .sidenav-wrap {
+  background: #fff;
+}
+
+#light-mode .header2 .hamburger-menu .sidenav .sidenav_right .header-detail h5,
+#light-mode .header2 .hamburger-menu .sidenav .sidenav-wrap .navbar-nav a,
+#light-mode .header2 .hamburger-menu .sidenav .sidenav_right .social-col .social-icon i 
+{
+  color: #191E29;
+}
+
+/* Search */
+
+#light-mode .yacht-blog .br-blog-list .br_foot_blog .br-blog-title a,
+#light-mode .yacht-blog .br-blog-list .br_foot_blog .br-blog-description,
+#light-mode .yacht-blog .br-blog-list .br_foot_blog a.br-blog-btn,
+#light-mode .yacht-slides .br-prod-list .br-foot-product .br-product-description,
+#light-mode .yacht-slides .br-prod-list .br-foot-product .br-product-title a,
+#light-mode .yacht-slides .br-prod-list .br-foot-product a.br-btn
+{
+  color: var(--text-color);
+}
+
+#light-mode .yacht-blog .br-blog-list .br_foot_blog .br-blog-title a:hover {
+  color: var(--primary);
+}
+
+#light-mode .yacht-blog .br-blog-list .br_foot_blog a.br-blog-btn:hover {
+  color: var(--primary);
+}
+
+#light-mode .yacht-slides .br-prod-list .br-foot-product .br-product-title a:hover {
+  color: var(--primary);
+}
+
+#light-mode .yacht-slides .br-prod-list .br-foot-product a.br-btn:hover {
+  color: var(--primary);
+}
+#light-mode .search-form button i
+{
+  color: var(--primary);
+}
+#light-mode .search-form button i:hover 
+{
+  color: var(--text-color);
+}
+
+
+/* Product Tab start */
+
+#light-mode .product-tabs .product-tabs-navigation a {
+  color: #3F3F3F;
+}
+
+#light-mode .product-tabs .product-tabs-navigation a:hover {
+  color: var(--primary);
+}
+
+#light-mode .product-tabs-navigation a.active {
+  color: #061838;
+}
+#light-mode .yacht-tabs .br-product-list:hover
+{
+  background: #FFF;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.10);
+}
+#light-mode .yacht-tabs .br-product-list .br-foot-product .br-product-detail .br-product-price .woocommerce-Price-amount
+{
+  color: var(--text-color);
+}
+/* Product Tab start */
+
+
+/* Yacht Tab start */
+
+#light-mode .yacht-tabs .br-product-list .br-foot-product .br-product-title a,
+#light-mode .yacht-tabs .br-product-list .br-foot-product .br-product-location
+{
+  color: var(--text-color);
+}
+
+#light-mode .yacht-tabs .br-product-list .br-foot-product .br-product-title a:hover {
+  color: var(--primary);
+}
+
+#light-mode .yacht-tabs .br-product-list .br-foot-product .br-product-features-item {
+  color: #5A5A5A;
+}
+
+/* Yacht Tab end */
+
+/* Blog Element start */
+
+#light-mode .yacht-blog .br-blogs-wrapper .br-blog-list:hover
+{
+  background: #FFF;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* Blog Element end */
+
+
+/* Tour Destination start */
+
+#light-mode .tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-title a,
+#light-mode .tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-description,
+#light-mode .tour-destination-wrapper .br-ul .br-tour-list .br_foot a.br-btn
+{
+  color: var(--text-color);
+}
+
+#light-mode .tour-destination-wrapper .br-ul .br-tour-list .br_foot .br-title a:hover {
+  color: var(--primary);
+}
+
+#light-mode .tour-destination-wrapper .br-ul .br-tour-list .br_foot a.br-btn:hover {
+  color: var(--primary);
+}
+#light-mode .tour-destination-wrapper .br-content .br-ul .br-tour-list:hover
+{
+  background: #FFF;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* Tour Destination end */
+
+
+/* Category start */
+
+#light-mode .br-product-cat .br-subcat-wrap {
+  background-color: #f8f8f8;
+}
+
+#light-mode .br-product-cat .br-subcat-wrap .br-subcat-inner .br-subcat-list .subcat-title,
+#light-mode .prod-filter,
+#light-mode .cat-main-wrapper .cat-left .widget-area .sidebar-widget .widget-title,
+#light-mode .cat-main-wrapper .cat-left .dropdown-check .dropdown label,
+#light-mode .cat-main-wrapper .cat-prod-inner .br-product-list .br-foot-product .br-product-title a,
+#light-mode .cat-main-wrapper .cat-prod-inner .br-product-list .br-foot-product .br-product-location,
+#light-mode .cat-main-wrapper .cat-left .br-yacht-available .yacht-form-sidebar .form-group label 
+{
+  color: var(--text-color);
+}
+
+#light-mode .cat-main-wrapper .cat-prod-inner .br-product-list .br-foot-product .br-product-title a:hover {
+  color: var(--primary);
+}
+
+#light-mode .cat-main-wrapper .cat-prod-inner .br-product-list .br-foot-product .br-product-features-item {
+  color: #5A5A5A;
+}
+
+#light-mode .cat-main-wrapper .cat-left .br-yacht-available .yacht-form-sidebar .form-group input {
+  color: #999;
+  border: 1px solid rgba(19, 45, 70, 0.30);
+}
+
+#light-mode .br-cat-pagination .cat-pagination ul li a {
+  color: #353030;
+}
+
+#light-mode .br-cat-pagination .cat-pagination ul li a.active {
+  color: var(--secondary);
+}
+
+#light-mode .yacht-tabs .br-product-list .br-head-product .br-product-review i
+{
+  color: #FFBA35;
+}
+#light-mode .yacht-tabs .br-product-list .br-head-product .br-product-wishlist .yith-wcwl-add-button a i
+{
+  color: var(--primary);
+}
+#light-mode .cat-main-wrapper .br-product-wrapper .br-product-list:hover
+{
+  background: #FFF;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.10);
+}
+#light-mode .cat-main-wrapper .cat-prod-inner .br-product-list .br-foot-product .br-product-detail .br-product-price .woocommerce-Price-amount
+{
+  color: var(--text-color);
+}
+
+/* Category end */
+
+
+/* Blog default start */
+
+#light-mode .blog-wrapper .br-content .br-ul .br-post-content .post-title a {
+  color: #121416;
+}
+
+#light-mode .blog-wrapper .br-content .br-ul .br-post-content .post-title a:hover {
+  color: var(--primary);
+}
+
+#light-mode .blog-wrapper .br-content .br-ul .br-post-content .post-excerpt p {
+  color: #6C757D;
+}
+
+#light-mode .blog-wrapper .br-content .br-ul .br-post-content .post-user span {
+  color: #121416;
+}
+
+#light-mode .blog-wrapper .br-content .br-ul .br-post-content .post-meta span {
+  color: #6C757D;
+}
+
+#light-mode .blog-wrapper .br-content .br-ul .br-post-content .post-readmore a.viewdetail {
+  color: var(--text-color);
+}
+
+#light-mode .blog-wrapper .br-content .br-ul .br-post-content .post-readmore a.viewdetail:hover {
+  color: var(--primary);
+}
+
+#light-mode .br-inside-content .sidebar h4 {
+  color: var(--text-color);
+}
+
+#light-mode .br-inside-content .sidebar .subcribe-form {
+  color: var(--text-color);
+}
+#light-mode .blog-wrapper .br-content .br-ul .custom-post:hover
+{
+  background: #FFF;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+/* Singal Product */
+#light-mode .br-product-top-sec .br-review-detail span,
+#light-mode .br-product-detail .br-prod-info .info-box .sub-title,
+#light-mode .br-product-detail .br-prod-description .prod-detail span,
+#light-mode .br-product-detail .br-prod-description .prod-description,
+#light-mode .br-product-detail .woocommerce-tabs .panel
+ {
+  color: #555555;
+}
+
+#light-mode .br-product-detail .br-prod-info .info-box .icons-title {
+  color: #9D9D9D;
+}
+
+#light-mode .br-product-detail .br-prod-info .info-box .quantity-figures,
+#light-mode .br-product-detail .br-prod-description .prod-title,
+#light-mode .woocommerce-tabs .related ul.products li .woocommerce-loop-product__title,
+#light-mode .woocommerce-tabs .related ul.products li .price,
+#light-mode .woocommerce-Reviews .comment-reply-title,
+#light-mode #review_form label,
+#light-mode .br-product-default .br-prod-detail table.variations td.value select,
+#light-mode .br-product-default .br-prod-detail .quantity input
+ {
+  color: var(--text-color);
+}
+
+
+#light-mode #review_form .form-submit .submit {
+  background: #191E29;
+}
+
+
+
+/* Cart */
+
+#light-mode .cart-wrap .shop_table th,
+#light-mode .cart-wrap .cart_item td,
+#light-mode .cart-wrap .cart_item td a,
+#light-mode .cart-wrap .cart_item .product-quantity input[type="number"],
+#light-mode .cart-wrap .cart-collaterals .cart_totals h2
+{
+  color: var(--text-color);
+}
+
+#light-mode .cart-wrap .cart_item td a:hover {
+  color: var(--text-color);
+}
+
+
+
+/* Checkout */
+#light-mode .checkout-wrap .checkout h3,
+#light-mode .checkout-wrap .checkout label,
+#light-mode .checkout-wrap .woocommerce-checkout-review-order table th 
+ {
+  color: var(--text-color);
+}
+
+#light-mode .checkout-wrap .checkout input[type="tel"] {
+  color: #8c8c8c;
+}
+
+#light-mode .checkout-wrap .select2-container--default .select2-selection--single {
+  color: #8c8c8c;
+}

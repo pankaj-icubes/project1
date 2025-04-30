@@ -1,0 +1,268 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.yacht-testimonial {
+  padding-top: 30px;
+  overflow: hidden;
+  width:100%;
+}
+
+.yacht-testimonial .br-testimonial-list {
+  background: var(--color-white);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.yacht-testimonial .slick-list {
+  overflow: visible;
+}
+
+.yacht-testimonial .slide {
+  display: block;
+  padding: 20px;
+  -webkit-transition: ease all 0.3s;
+  -o-transition: ease all 0.3s;
+  transition: ease all 0.3s;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.yacht-testimonial .br-head-testimonial .br-testimonial-evaluate {
+  font-family: var(--text);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.yacht-testimonial .br-foot-testimonial {
+  -ms-grid-columns: auto 20px auto 20px 1fr 20px 1fr;
+  grid-template-columns: auto auto 1fr 1fr;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  margin: 20px 0px;
+}
+
+.yacht-testimonial .br-foot-testimonial .br-testimonial-img {
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.yacht-testimonial .br-foot-testimonial .br-testimonial-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+
+.yacht-testimonial .br-foot-testimonial .br-testimonial-info p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.yacht-testimonial .br-foot-testimonial .br-testimonial-info .br-testimonial-name {
+  font-family: var(--text);
+  font-size: var(--text-font-size);
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.yacht-testimonial .br-foot-testimonial .br-testimonial-info .br-testimonial-company {
+  font-family: var(--text);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.yacht-testimonial-wrapper .slide-arrow-wrapper .slide-arrow-inner {
+  float: left;
+}
+
+.yacht-testimonial-wrapper button {
+  display: inline;
+  float: var(--left);
+  border: 0px;
+  background: none;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.yacht-testimonial .child {
+  width: 100%;
+}
+
+.yacht-testimonial .slide:not(.slick-active) {
+  cursor: pointer;
+}
+
+.yacht-testimonial .slider {
+  display: block;
+  -webkit-transform: translateX(-585px);
+      -ms-transform: translateX(-585px);
+          transform: translateX(-585px);
+  left: 0;
+}
+
+
+/* Layout 2 start*/
+.yacht-testimonial-wrapper.layout_2 .yacht-testimonial .slide-arrow-inner button.slick-arrow i {
+  font-size: 22px;
+}
+
+.yacht-testimonial-wrapper.layout_2 .slide-arrow-wrapper button.prev {
+  margin-right: 10px;
+}
+
+.yacht-testimonial-wrapper.layout_2 .slide-arrow-wrapper button.next {
+  margin-left: 10px;
+}
+
+.yacht-testimonial-wrapper.layout_2 .slide-arrow-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 35px;
+}
+
+.yacht-testimonial-wrapper.layout_2 .slide-arrow-wrapper .slide-arrow-inner {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Layout 2 end */
+
+
+/* Layout 2 start */
+
+.layout_2 .yacht-testimonial {
+  padding: 0px;
+}
+
+.layout_2 .boatrental-flix {
+
+  float: left;
+  height: 280px;
+  float: left;
+  max-width: 500px;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.layout_2 .boatrental-flix-inner {
+  width: 500px;
+  height: auto;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  -o-transition: transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.layout_2 .boatrental-flix:hover .boatrental-flix-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.layout_2 .boatrental-flix-front,
+.layout_2 .boatrental-flix-back {
+  position: absolute;
+  width: 100%;
+  height: 280px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.layout_2 .br-testimonial-img {
+  width: 100%;
+  height: 100%;
+}
+
+.layout_2 .br-testimonial-img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Style the back side */
+.layout_2 .boatrental-flix-back {
+  background-color: #fff;
+  color: #191E29;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  padding: 55px 10px;
+}
+
+.layout_2 .boatrental-flix-back .br-testimonial-name {
+  font-weight: 600;
+}
+
+.testi .slide-arrow-wrapper button i {
+  color: #fff;
+}
+
+.layout_2 .slide-arrow-wrapper .slide-arrow-inner {
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+/* Layout 2 end */
+
+
+/* For screens with a maximum width of 767px (typical for tablets and mobiles) */
+@media (max-width: 767px) {
+
+  .yacht-testimonial .slider {
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+
+  .layout_2 .boatrental-flix-inner {
+    width: auto;
+  }
+
+}
+
+/* iPad screens */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .yacht-testimonial .slider {
+    -webkit-transform: translateX(-375px);
+        -ms-transform: translateX(-375px);
+            transform: translateX(-375px);
+  }
+
+  .layout_2 .boatrental-flix {
+    max-width: 300px;
+  }
+
+  .layout_2 .boatrental-flix-inner {
+    width: 300px;
+  }
+
+}
+
+
+/* iPad pro screens */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .yacht-testimonial .slider {
+    -webkit-transform: translateX(-502px);
+        -ms-transform: translateX(-502px);
+            transform: translateX(-502px);
+}
+}

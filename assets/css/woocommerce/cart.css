@@ -1,0 +1,87 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.cart-wrap .shop_table {
+    font-family: var(--text);
+}
+
+.woocommerce-cart .cart-wrap .shop_table th {
+    font-family: var(--heading);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart-wrap .cart_item td {
+    font-size: var(--text-font-size);
+    font-family: var(--text);
+}
+
+
+.cart-wrap .cart_item .product-thumbnail img {
+    width: 80px;
+    border-radius: 4px;
+}
+
+.cart-wrap .cart_item .product-quantity input[type="number"] {
+    border: 1px solid #CFCACA;
+}
+
+.cart-wrap .cart_item .product-remove a.remove {
+    display: inline-block;
+
+}
+
+.cart-wrap .cart_item .product-remove {
+    text-align: var(--text-center);
+}
+
+.cart-wrap table.cart td.actions .input-text {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    display: inline-block;
+}
+
+.cart-wrap .cart_item .product-thumbnail {
+    text-align: var(--text-center);
+}
+
+.cart-wrap .cart-collaterals .cart_totals h2 {
+    font-family: var(--heading);
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.cart-wrap .woocommerce td.product-name dl.variation p
+{
+    margin-bottom: revert;
+}
+.cart-wrap .woocommerce td.product-name dl.variation dt
+{
+  font-weight: 600;
+}
+.cart-wrap .cart-collaterals .cart_totals .checkout-button {
+    background: var(--primary);
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: var(--text-font-size);
+    font-family: var(--text);
+    padding: 12px 20px;
+    height:42px;
+}
+
+.cart-wrap .woocommerce a.button.alt:hover {
+    background: var(--primary);
+}
+
+.cart-wrap .shop_table button.button {
+    font-weight: 500;
+    font-size: var(--text-font-size);
+    padding: 12px 20px;
+    background: var(--primary);
+    color: var(--color-white);
+}

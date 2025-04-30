@@ -1,0 +1,203 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.br-yacht-search-wrapper {
+  width: 100%;
+  display: block;
+}
+
+.br-yacht-search-wrapper .form-column-group {
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  width: 100%;
+}
+
+.br-yacht-search-wrapper .yacht-search-form {
+  color: var(--color-white);
+}
+
+.yacht-search-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.layout1_search .yacht-search-form form
+{
+  background: var(--search-bg-color-ver1);
+}
+.layout2_search .yacht-search-form form
+{
+  background: var(--search-bg-color-ver2);
+}
+
+.yacht-search-form .form-group {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yacht-search-form label {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.yacht-search-form input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  width: 100%;
+  color: var(--color-white);
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  background: transparent;
+  height: 48px;
+}
+
+.yacht-search-form input[type="date"]::-webkit-calendar-picker-indicator {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.yacht-search-form input[type="text"]::-webkit-input-placeholder {
+  color: var(--color-white);
+}
+
+.yacht-search-form input[type="text"]::-moz-placeholder {
+  color: var(--color-white);
+}
+
+.yacht-search-form input[type="text"]:-ms-input-placeholder {
+  color: var(--color-white);
+}
+
+.yacht-search-form input[type="text"]::-ms-input-placeholder {
+  color: var(--color-white);
+}
+
+.yacht-search-form input[type="text"]::placeholder {
+  color: var(--color-white);
+}
+
+.yacht-search-form input:focus {
+  border: 1px solid #5c9eff;
+  -webkit-box-shadow: 0 0 3px #5c9eff;
+          box-shadow: 0 0 3px #5c9eff;
+  outline: none;
+}
+
+.yacht-search-form select:focus {
+  border: 1px solid #5c9eff;
+  -webkit-box-shadow: 0 0 3px #5c9eff;
+          box-shadow: 0 0 3px #5c9eff;
+  outline: none;
+  background-color: transparent; 
+  color:#fff;
+}
+
+.yacht-search-form select {
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  background: transparent;
+  height: 48px;
+  color: var(--color-white);
+  padding: 6px 12px;
+  padding-right: 20px;
+  /* Adjust the padding as needed */
+  background-image: url(../../images/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  -webkit-appearance: none;
+  /* For Safari and Chrome */
+  -moz-appearance: none;
+  /* For Firefox */
+  appearance: none;
+  width: 100%;
+}
+
+.yacht-search-form select option {
+  color: var(--text-color);
+}
+
+.yacht-search-form button[type="submit"] {
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.yacht-search-form .btn-v1 button[type="submit"] {
+  background-color: transparent;
+}
+
+.yacht-search-form .btn-v1 {
+  margin-top: 35px;
+}
+
+.yacht-search-form .btn-v2 button[type="submit"] {
+  background: var(--primary);
+  padding: 8px 30px;
+  color: var(--text-color);
+}
+
+.yacht-search-form .btn-v2 button[type="submit"]:hover {
+  background: var(--color-white);
+}
+
+.yacht-search-form .form-group button img {
+
+  margin-right: 5px;
+}
+
+.yacht-search-form .submit-btn {
+  margin: 0 auto;
+  margin-top: 38px;
+  width: 100%;
+  text-align: center;
+}
+
+.layout1_search .btn-v2,
+.layout2_search .btn-v1 {
+  display: none;
+}
+
+
+/* For screens with a maximum width of 767px (typical for tablets and mobiles) */
+@media (max-width: 767px) {
+  .br-yacht-search-wrapper .form-column-group {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    grid-gap: unset;
+  }
+  .yacht-search-form .form-group
+  {
+    margin-bottom: 12px;
+  }
+  .yacht-search-form .submit-btn {
+    margin-top:25px;
+  }
+}

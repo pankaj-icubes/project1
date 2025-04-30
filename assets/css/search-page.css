@@ -1,0 +1,210 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.br-search {
+    padding: 30px 0;
+}
+
+.br-search .heading {
+    font-size: 24px;
+}
+
+.br-search .br-wrap-box {
+    -ms-grid-columns: 4fr 30px 8fr;
+    grid-template-columns: 4fr 8fr;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 30px;
+}
+
+.br-search-main .br-wrap-box {
+    border-bottom: 1px solid #d2d2d2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.br-search-main .br-wrap-box:last-child {
+    padding-top: 20px;
+    border-bottom: none;
+}
+
+.br-search .br-wrap-box .box-left .post-media {
+    width: 100%;
+    height: 230px;
+}
+.br-search .br-wrap-box .box-left .post-media .br-post-image 
+{
+    height:100%;
+}
+
+.br-search .br-wrap-box .box-left .post-media img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 0px 0px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.br-search .br-wrap-box .box-right .br-product-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.br-search .br-wrap-box .box-right .br-product-title a {
+    color: var(--text-color);
+}
+
+.br-search .br-wrap-box .box-right .br-product-title a:hover {
+    color: var(--primary);
+}
+
+.br-search .br-wrap-box .box-right span.br-meta {
+    font-size: 13px;
+    color: #5A5A5A;
+}
+
+.br-search .br-wrap-box .box-right .post-excerpt {
+    margin: 10px 0px;
+}
+
+.br-search .br-wrap-box .box-right a.viewdetail {
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: block;
+}
+
+.br-search .br-wrap-box .box-right a.viewdetail:hover {
+    color: var(--primary);
+}
+
+.br-search .br-wrap-box .box-right ul.br-product-features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.br-search .br-wrap-box .box-right ul.br-product-features li {
+    margin-right: 15px;
+    color: #525252;
+}
+
+.br-search .br-wrap-box .br-head-product {
+    position: relative;
+    height: 100%;
+}
+
+.br-search .br-wrap-box .br-product-tag {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-grid-columns: 6fr 5px 6fr;
+    grid-template-columns: 6fr 6fr;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.br-search .br-wrap-box .br-head-product .br-product-review {
+    font-family: var(--text);
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.br-search .br-wrap-box .br-head-product .br-product-wishlist {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    z-index: 1;
+}
+
+.br-search .br-wrap-box .br-head-product .br-product-wishlist .yith-wcwl-add-button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--text);
+    font-size: 16px;
+}
+
+.br-search .br-wrap-box .br-head-product .br-product-wishlist .yith-wcwl-add-button>a i {
+    margin-right: 5px;
+}
+
+.br-search .pagination-wrapper {
+    width: 100%;
+    display: block;
+    margin: 30px 0;
+}
+
+.br-search .pagination-wrapper ul.page-numbers {
+    text-align: center;
+}
+
+.br-search .pagination-wrapper ul.page-numbers li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.br-search .pagination-wrapper ul.page-numbers li span {
+    float: var(--left);
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.br-search .pagination-wrapper ul.page-numbers li a {
+    float: var(--left);
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #353030;
+}
+
+.br-search .pagination-wrapper ul.page-numbers li span.current {
+    color: var(--secondary);
+}
+
+
+/* For screens with a maximum width of 767px (typical for tablets and mobiles) */
+@media (max-width: 767px) {
+    .br-search {
+        padding: 30px 15px;
+    }
+
+    .br-search .br-wrap-box {
+        -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    }
+
+    .br-search .br-wrap-box .box-left .post-media {
+        height: auto;
+    }
+}
+
+
+/* iPad screens */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .br-search {
+        padding: 30px 15px;
+    }
+
+}

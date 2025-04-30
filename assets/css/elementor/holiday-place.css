@@ -1,0 +1,177 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.yacht-slides {
+	padding: 25px 0px;
+	overflow: hidden;
+	width:100%;
+}
+
+.yacht-slides .br-prod-list .br-head-product
+{
+	height: 310px;
+    width: 100%;
+}
+
+.yacht-slides .br-prod-list .br-head-product .br-product-img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	border-radius: 30px 30px 0px 0px;
+}
+
+.yacht-slides .br-prod-list .br-foot-product .br-product-title {
+	margin: 15px 0px 10px 0px;
+}
+
+.yacht-slides .br-prod-list .br-foot-product .br-product-title a {
+	font-size: 24px;
+	font-family: var(--heading);
+	text-transform: capitalize;
+	color: var(--text-color);
+}
+.yacht-slides .br-prod-list .br-foot-product .br-product-title a:hover
+{
+	color: var(--primary);
+}
+
+.yacht-slides .br-prod-list .br-foot-product .br-product-description.gallery-caption {
+	margin-bottom: 18px;
+	font-size: var(--text-font-size);
+	font-family: var(--text);
+}
+
+.yacht-slides .br-prod-list .br-foot-product .br-btn {
+	font-size: var(--text-font-size);
+	font-family: var(--text);
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: underline;
+	color: var(--text-color);
+}
+.yacht-slides .br-prod-list .br-foot-product .br-btn:hover 
+{
+	color: var(--primary);
+}
+
+.yacht-slides .slide {
+	display: block;
+	padding: 0px;
+	-webkit-transition: ease all 0.3s;
+	-o-transition: ease all 0.3s;
+	transition: ease all 0.3s;
+	overflow: hidden;
+	margin-right: 30px;
+}
+
+.yacht-slides-wrapper .slide-arrow-wrapper .slide-arrow-inner {
+	float: var(--right);
+}
+
+.location2 .yacht-slides-wrapper .slide-arrow-wrapper .slide-arrow-inner {
+	margin-top: 15px;
+}
+
+.yacht-slides-wrapper button {
+	display: inline;
+	float: var(--left);
+	border: 0px;
+	background: none;
+	cursor: pointer;
+	padding: 0px;
+}
+
+.yacht-slides .child {
+	width: 100%;
+}
+
+.yacht-slides .slide:not(.slick-active) {
+	cursor: pointer;
+}
+
+.yacht-slides .slider {
+	display: block;
+	-webkit-transform: translateX(-565px);
+	    -ms-transform: translateX(-565px);
+	        transform: translateX(-565px);
+	left: 0;
+}
+
+.yacht-slides .slick-list {
+	overflow: visible;
+}
+
+
+/* Layout 2 start */
+
+.yacht-slides.location2 .slide {
+	padding: 0px;
+}
+
+.yacht-slides.location2 .slider {
+	-webkit-transform: translateX(-575px);
+	    -ms-transform: translateX(-575px);
+	        transform: translateX(-575px);
+}
+
+.yacht-slides.location2 .slider .slick-track {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 15px;
+}
+
+/* Layout 2 end */
+
+
+
+/* For screens with a maximum width of 767px (typical for tablets and mobiles) */
+@media (max-width: 767px) {
+
+	.yacht-slides .slider {
+		-webkit-transform: translateX(0px);
+		    -ms-transform: translateX(0px);
+		        transform: translateX(0px);
+	}
+
+	.yacht-slides.location1 .slider {
+		-webkit-transform: translateX(20px);
+		    -ms-transform: translateX(20px);
+		        transform: translateX(20px);
+	}
+	.yacht-slides .slick-list {
+		padding: 20px 0px;
+	}
+	.yacht-slides .br-prod-list .br-head-product
+	{
+		height:auto;
+	}
+
+}
+
+/* iPad screens */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.yacht-slides .slider {
+		-webkit-transform: translateX(-375px);
+		    -ms-transform: translateX(-375px);
+		        transform: translateX(-375px);
+	}
+	.yacht-slides .br-prod-list .br-head-product
+	{
+		height:220px;
+	}
+}
+
+/* iPad screens pro */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.yacht-slides .slider
+	{
+		-webkit-transform: translateX(-502px);
+		    -ms-transform: translateX(-502px);
+		        transform: translateX(-502px);
+	}
+}

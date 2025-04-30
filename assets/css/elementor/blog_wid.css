@@ -1,0 +1,290 @@
+/*
+* Prefixed by Autoprefixer
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.yacht-blog .br-blogs-wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  margin: 0;
+}
+
+.yacht-blog .br-blogs-wrapper .br-blog-list
+{
+  padding:8px;
+}
+
+.yacht-blog .br-blogs-wrapper .br-blog-list:hover 
+{
+  border-radius: 30px;
+}
+
+.yacht-blog .br-blog-list .br-head-blog .br-blog-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px 30px 0px 0px;
+  height: 100%;
+}
+
+.yacht-blog .br-blogs-wrapper.column1 .br-blog-list {
+  -ms-grid-columns: 4fr 30px 8fr;
+  grid-template-columns: 4fr 8fr;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  border-bottom: 1px solid #d2d2d2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.yacht-blog .br-blog-list .br_foot_blog .br-blog-title{
+  font-size: 24px;
+  font-family: var(--heading);
+  margin: 24px 0px 10px 0px;
+}
+.yacht-blog .br-blog-list .br_foot_blog .br-blog-title a{
+  font-size: 24px;
+  font-family: var(--heading);
+  margin: 24px 0px 10px 0px;
+  color: var(--text-color);
+}
+.yacht-blog .br-blog-list .br_foot_blog .br-blog-title a:hover
+{
+  color: var(--primary);
+}
+
+.yacht-blog .br-blog-list .br_foot_blog .br-blog-description {
+  margin-bottom: 18px;
+  font-size: var(--text-font-size);
+  font-family: var(--text);
+}
+
+.yacht-blog .br-blog-list .br_foot_blog .br-blog-btn {
+  font-size: var(--text-font-size);
+  font-family: var(--text);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: underline;
+  color: var(--text-color);
+}
+.yacht-blog .br-blog-list .br_foot_blog .br-blog-btn:hover 
+{
+  color: var(--primary);
+}
+
+
+/* column 1 start */
+
+.yacht-blog .br-blogs-wrapper.column1 {
+  grid-gap: unset;
+}
+
+.yacht-blog .br-blogs-wrapper.column1 .br-blog-list:last-child {
+  padding-top: 20px;
+  border-bottom: none;
+}
+
+.yacht-blog .column1 .br-blog-list .br-head-blog {
+  width: 100%;
+  height: 220px;
+}
+
+
+/* column 1 end */
+
+
+/* column 2 start */
+
+.yacht-blog .br-blogs-wrapper.column2 {
+  -ms-grid-columns: 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.yacht-blog .column2 .br-blog-list .br-head-blog .br-blog-img {
+  height: 330px;
+}
+
+/* column 2 end */
+
+
+/* column 3 start */
+
+.yacht-blog .br-blogs-wrapper.column3 {
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.yacht-blog .column3 .br-blog-list .br-head-blog .br-blog-img {
+  height: 240px;
+}
+
+/* column 3 end */
+
+
+
+/* Blog Layout 2 start */
+
+.blog_layout2 .br-blog-wrap {
+  display: block;
+  width: 100%;
+
+}
+
+.blog_layout2 .br-blog-wrap .blog-left {
+  width: 48%;
+  float: left;
+  display: inline-block;
+  margin-right: 15px;
+  height: 500px;
+}
+
+.blog_layout2 .br-blog-wrap .blog-left .post_media {
+  max-width: 568px;
+  width: 100%;
+}
+
+.blog_layout2 .br-blog-wrap .blog-left .post_media img {
+  width: 100%;
+  height: 353px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blog_layout2 .br-blog-wrap .blog-right {
+  width: 48%;
+  float: left;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.blog_layout2 .br-blog-wrap .blog-left .post_media .br-post-image {
+  margin-bottom: 24px;
+}
+
+.blog_layout2 .br-blog-wrap .blog-left .post_media .br-post-image img {
+  border-radius: 30px;
+}
+
+.blog_layout2 .blog-right .br-post-content {
+  padding: 20px 0px;
+}
+
+.blog_layout2 .br-post-content h3.br-product-title {
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.blog_layout2 .br-post-content h3.br-product-title a {
+  color: var(--text-color);
+}
+
+.blog_layout2 .br-post-content h3.br-product-title a:hover {
+  color: var(--primary);
+}
+
+.blog_layout2 .br-post-content .post-excerpt {
+  margin-bottom: 15px;
+}
+
+.blog_layout2 .br-post-content .post-readmore a.viewdetail {
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.blog_layout2 .br-post-content .post-readmore a.viewdetail:hover {
+  color: var(--primary);
+}
+
+.blog_layout2 .br-blog-wrap .br-post-content:nth-child(2) {
+  border-bottom: 1px solid #D6D6D6;
+  padding-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.blog_layout2 .br-blog-wrap .br-post-content:nth-child(3) {
+  border-bottom: 1px solid #D6D6D6;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.blog_layout2 .br-blog-wrap .br-post-content:nth-child(4) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+
+/* Blog Layout 2 end */
+
+
+/* For screens with a maximum width of 767px (typical for tablets and mobiles) */
+@media (max-width: 767px) {
+
+  .yacht-blog .br-blogs-wrapper,
+  .yacht-blog .br-blogs-wrapper.column2,
+  .yacht-blog .br-blogs-wrapper.column3 {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+  }
+
+  .yacht-blog .br-blogs-wrapper.column1 .br-blog-list {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    grid-gap: unset;
+  }
+
+  .blog_layout2 .br-blog-wrap .blog-left {
+    width: 100%;
+    margin-right: 0px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .blog_layout2 .br-blog-wrap .blog-left .post_media img {
+    height: auto;
+  }
+
+  .blog_layout2 .br-blog-wrap .blog-right {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .yacht-blog .column2 .br-blog-list .br-head-blog .br-blog-img {
+    height: auto;
+}
+
+}
+
+
+
+/* iPad screens */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .blog_layout2 .br-blog-wrap .blog-left,
+  .blog_layout2 .br-blog-wrap .blog-right {
+    width: 47%;
+  }
+
+  .blog_layout2 .br-blog-wrap .blog-left .post_media img {
+    height: auto;
+  }
+
+  .yacht-blog .br-blog-list .br-head-blog .br-blog-img {
+    height: 165px;
+  }
+
+  .yacht-blog .column2 .br-blog-list .br-head-blog .br-blog-img
+  {
+    height:220px;
+  }
+  .yacht-blog .column3 .br-blog-list .br-head-blog .br-blog-img
+  {
+    height:165px;
+  }
+}
